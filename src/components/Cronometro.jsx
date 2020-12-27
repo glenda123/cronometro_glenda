@@ -93,7 +93,7 @@ class Cronometro extends Component {
 
     handleReset = () => {
         this.updateTimer(0, 0, 0, 0)
-        this.setState({allTimestamps:[], starte:false})
+        this.setState({allTimestamps:[], started:false})
     
     }
     updateTimer(hours, minutes, seconds, miliseconds){
